@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/widget_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/widget_background_light"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/widget_album_art"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/widget_album_art_bg_light"
+                android:src="@android:drawable/ic_lock_silent_mode_off"
+                android:contentDescription="Album Art" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/widget_track_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pepe Музыка"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:maxLines="1"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/widget_artist_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Нажмите для воспроизведения"
+                    android:textColor="#666666"
+                    android:textSize="13sp"
+                    android:maxLines="1"
+                    android:ellipsize="end" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/widget_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="8dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressTint="#9D4EDD"
+            android:progressBackgroundTint="#DDDDDD"
+            android:max="100"
+            android:progress="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/widget_previous"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@android:drawable/ic_media_previous"
+                android:tint="#9D4EDD"
+                android:contentDescription="Previous" />
+
+            <ImageButton
+                android:id="@+id/widget_play_pause"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginHorizontal="16dp"
+                android:background="@drawable/widget_play_button_bg_light"
+                android:src="@android:drawable/ic_media_play"
+                android:tint="#FFFFFF"
+                android:contentDescription="Play/Pause" />
+
+            <ImageButton
+                android:id="@+id/widget_next"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@android:drawable/ic_media_next"
+                android:tint="#9D4EDD"
+                android:contentDescription="Next" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚙️ Настройка виджета"
+            android:textColor="@color/bright_purple"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/semi_transparent_purple"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🎨 Внешний вид"
+                    android:textColor="@color/bright_purple"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Показывать обложку"
+                        android:textColor="@color/on_surface"
+                        android:textSize="16sp" />
+
+                    <Switch
+                        android:id="@+id/config_show_album_art"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:thumbTint="@color/light_purple"
+                        android:trackTint="@color/primary_variant" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Показывать прогресс-бар"
+                        android:textColor="@color/on_surface"
+                        android:textSize="16sp" />
+
+                    <Switch
+                        android:id="@+id/config_show_progress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:thumbTint="@color/light_purple"
+                        android:trackTint="@color/primary_variant" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Прозрачность фона"
+                    android:textColor="@color/on_surface"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="8dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <SeekBar
+                        android:id="@+id/config_transparency"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:max="255"
+                        android:progress="200"
+                        android:progressTint="@color/bright_purple"
+                        android:thumbTint="@color/light_purple" />
+
+                    <TextView
+                        android:id="@+id/config_transparency_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="78%"
+                        android:textColor="@color/bright_purple"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="12dp"
+                        android:minWidth="50dp"
+                        android:gravity="end" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardBackgroundColor="@color/semi_transparent_purple"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🎨 Тема"
+                    android:textColor="@color/bright_purple"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp" />
+
+                <RadioGroup
+                    android:id="@+id/config_theme_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/config_theme_purple"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="💜 Фиолетовая (по умолчанию)"
+                        android:textColor="@color/on_surface"
+                        android:textSize="16sp"
+                        android:buttonTint="@color/bright_purple"
+                        android:checked="true"
+                        android:padding="8dp" />
+
+                    <RadioButton
+                        android:id="@+id/config_theme_dark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🖤 Темная"
+                        android:textColor="@color/on_surface"
+                        android:textSize="16sp"
+                        android:buttonTint="@color/bright_purple"
+                        android:padding="8dp" />
+
+                    <RadioButton
+                        android:id="@+id/config_theme_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🤍 Светлая"
+                        android:textColor="@color/on_surface"
+                        android:textSize="16sp"
+                        android:buttonTint="@color/bright_purple"
+                        android:padding="8dp" />
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <Button
+            android:id="@+id/config_save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✅ Сохранить и создать виджет"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_gradient_button"
+            android:paddingVertical="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 Подсказка: После создания виджета вы сможете изменить его размер, потянув за углы!"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>

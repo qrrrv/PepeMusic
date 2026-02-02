@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.musicplayer"
+4    android:versionCode="1"
+5    android:versionName="0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission
+11-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:5:5-6:38
+12        android:name="android.permission.READ_EXTERNAL_STORAGE"
+12-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:5:22-77
+13        android:maxSdkVersion="32" />
+13-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:6:9-35
+14    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+14-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:7:5-75
+14-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:7:22-72
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:8:5-77
+15-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:8:22-74
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+16-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:9:5-92
+16-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:9:22-89
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:10:5-68
+17-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:10:22-65
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:11:5-77
+18-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:11:22-74
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0727e35ddcdc8de4df2ed1acb80a64e1/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.musicplayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0727e35ddcdc8de4df2ed1acb80a64e1/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0727e35ddcdc8de4df2ed1acb80a64e1/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.musicplayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0727e35ddcdc8de4df2ed1acb80a64e1/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0727e35ddcdc8de4df2ed1acb80a64e1/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:13:5-70:19
+27        android:allowBackup="true"
+27-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:14:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0727e35ddcdc8de4df2ed1acb80a64e1/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@android:drawable/ic_menu_compass"
+31-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:15:9-57
+32        android:label="@string/app_name"
+32-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:16:9-41
+33        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
+33-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:17:9-77
+34        <activity
+34-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:19:9-27:20
+35            android:name="com.musicplayer.MainActivity"
+35-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:20:13-41
+36            android:exported="true"
+36-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:21:13-36
+37            android:screenOrientation="portrait" >
+37-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:22:13-49
+38            <intent-filter>
+38-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:23:13-26:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:24:17-69
+39-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:24:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:25:17-77
+41-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:25:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:29:9-32:52
+45            android:name="com.musicplayer.SettingsActivity"
+45-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:30:13-45
+46            android:exported="false"
+46-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:31:13-37
+47            android:screenOrientation="portrait" />
+47-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:32:13-49
+48        <activity
+48-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:34:9-37:52
+49            android:name="com.musicplayer.StatisticsActivity"
+49-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:35:13-47
+50            android:exported="false"
+50-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:36:13-37
+51            android:screenOrientation="portrait" />
+51-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:37:13-49
+52        <activity
+52-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:39:9-47:20
+53            android:name="com.musicplayer.WidgetConfigActivity"
+53-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:40:13-49
+54            android:exported="false"
+54-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:41:13-37
+55            android:screenOrientation="portrait"
+55-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:42:13-49
+56            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
+56-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:43:13-81
+57            <intent-filter>
+57-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:44:13-46:29
+58                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+58-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:45:17-87
+58-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:45:25-84
+59            </intent-filter>
+60        </activity>
+61
+62        <service
+62-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:49:9-53:61
+63            android:name="com.musicplayer.MusicService"
+63-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:50:13-41
+64            android:enabled="true"
+64-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:51:13-35
+65            android:exported="false"
+65-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:52:13-37
+66            android:foregroundServiceType="mediaPlayback" />
+66-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:53:13-58
+67
+68        <receiver
+68-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:55:9-68:20
+69            android:name="com.musicplayer.MusicWidgetProvider"
+69-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:56:13-48
+70            android:exported="true" >
+70-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:57:13-36
+71            <intent-filter>
+71-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:58:13-64:29
+72                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+72-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:59:17-84
+72-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:59:25-81
+73                <action android:name="com.musicplayer.WIDGET_PLAY_PAUSE" />
+73-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:60:17-76
+73-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:60:25-73
+74                <action android:name="com.musicplayer.WIDGET_NEXT" />
+74-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:61:17-70
+74-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:61:25-67
+75                <action android:name="com.musicplayer.WIDGET_PREVIOUS" />
+75-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:62:17-74
+75-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:62:25-71
+76                <action android:name="com.musicplayer.WIDGET_UPDATE" />
+76-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:63:17-72
+76-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:63:25-69
+77            </intent-filter>
+78
+79            <meta-data
+79-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:65:13-67:61
+80                android:name="android.appwidget.provider"
+80-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:66:17-58
+81                android:resource="@xml/music_widget_info" />
+81-->/data/data/com.termux/files/home/PepeMusic/app/src/main/AndroidManifest.xml:67:17-58
+82        </receiver>
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/3ba2aef30d863ed6c274b18e19aa78d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/3ba2aef30d863ed6c274b18e19aa78d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+86            android:authorities="com.musicplayer.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/3ba2aef30d863ed6c274b18e19aa78d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/3ba2aef30d863ed6c274b18e19aa78d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/3ba2aef30d863ed6c274b18e19aa78d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/3ba2aef30d863ed6c274b18e19aa78d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/3ba2aef30d863ed6c274b18e19aa78d6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7fe53484cc81e9152b1ecd739ec020b1/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7fe53484cc81e9152b1ecd739ec020b1/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7fe53484cc81e9152b1ecd739ec020b1/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+94        </provider>
+95    </application>
+96
+97</manifest>

@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/layout_activity_splash.xml.flat",
+        "source": "com.musicplayer.app-main-33:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_widget_play_button_bg_light.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/widget_play_button_bg_light.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/anim_fade_in.xml.flat",
+        "source": "com.musicplayer.app-main-33:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_miniplayer_close.png.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/miniplayer_close.png"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_play_button_selector.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/play_button_selector.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_play_button_bg.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/play_button_bg.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_widget_album_art_bg_light.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/widget_album_art_bg_light.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_widget_album_art_bg_dark.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/widget_album_art_bg_dark.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_gradient_background.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/gradient_background.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_msg_round_pause_m.png.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/msg_round_pause_m.png"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_widget_album_art_bg.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/widget_album_art_bg.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_control_button_play_white.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/control_button_play_white.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_msg_round_play_m.png.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/msg_round_play_m.png"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_widget_play_button_bg_dark.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/widget_play_button_bg_dark.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_card_background.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/card_background.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/anim_button_press.xml.flat",
+        "source": "com.musicplayer.app-main-33:/anim/button_press.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/anim_slide_up.xml.flat",
+        "source": "com.musicplayer.app-main-33:/anim/slide_up.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_telegram_card.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/telegram_card.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_widget_background_light.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/widget_background_light.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_widget_background_purple.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/widget_background_purple.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/layout_widget_music_purple.xml.flat",
+        "source": "com.musicplayer.app-main-33:/layout/widget_music_purple.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/layout_activity_widget_config.xml.flat",
+        "source": "com.musicplayer.app-main-33:/layout/activity_widget_config.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_rounded_gradient_button.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/rounded_gradient_button.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/layout_track_item.xml.flat",
+        "source": "com.musicplayer.app-main-33:/layout/track_item.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_widget_background_dark.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/widget_background_dark.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_control_button_white.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/control_button_white.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_settings_item_background.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/settings_item_background.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/layout_activity_statistics.xml.flat",
+        "source": "com.musicplayer.app-main-33:/layout/activity_statistics.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/layout_top_track_item.xml.flat",
+        "source": "com.musicplayer.app-main-33:/layout/top_track_item.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/layout_widget_music_light.xml.flat",
+        "source": "com.musicplayer.app-main-33:/layout/widget_music_light.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/anim_button_release.xml.flat",
+        "source": "com.musicplayer.app-main-33:/anim/button_release.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_widget_play_button_bg.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/widget_play_button_bg.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/xml_music_widget_info.xml.flat",
+        "source": "com.musicplayer.app-main-33:/xml/music_widget_info.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.musicplayer.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/layout_activity_settings.xml.flat",
+        "source": "com.musicplayer.app-main-33:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_telegram_button.xml.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/telegram_button.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/drawable_msg_settings_solar.png.flat",
+        "source": "com.musicplayer.app-main-33:/drawable/msg_settings_solar.png"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/layout_widget_music_dark.xml.flat",
+        "source": "com.musicplayer.app-main-33:/layout/widget_music_dark.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-merged_res-31:/anim_rotate_scale.xml.flat",
+        "source": "com.musicplayer.app-main-33:/anim/rotate_scale.xml"
+    }
+]

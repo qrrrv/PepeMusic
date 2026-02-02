@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pepe Музыка</string>
+    <string name="add_songs">Добавить музыку</string>
+    <string name="empty_library">Ваша библиотека пуста</string>
+    <string name="select_track">Выберите трек</string>
+    <string name="artist_placeholder">Исполнитель</string>
+    <string name="settings">Настройки</string>
+    
+    <string name="appearance">ВНЕШНИЙ ВИД</string>
+    <string name="dark_mode">Темная тема</string>
+    <string name="glass_effect">Эффект стекла</string>
+    <string name="rain_effect">Эффект дождя</string>
+    <string name="accent_color">Акцентный цвет</string>
+    
+    <string name="audio">ЗВУК</string>
+    <string name="audio_quality">Качество звука</string>
+    <string name="equalizer">Эквалайзер</string>
+    <string name="bass_boost">Усиление баса</string>
+    <string name="audio_buffer">Буфер аудио</string>
+    <string name="fade_cross">Плавный переход</string>
+    
+    <string name="playback">ВОСПРОИЗВЕДЕНИЕ</string>
+    <string name="auto_play">Автовоспроизведение</string>
+    <string name="shake_skip">Встряхнуть для смены</string>
+    <string name="lockscreen_player">Плеер на экране блокировки</string>
+    
+    <string name="general">ОБЩЕЕ</string>
+    <string name="sleep_timer">Таймер сна</string>
+    <string name="language">Язык</string>
+    <string name="clear_cache">Очистить кэш</string>
+    
+    <string name="about">О ПРИЛОЖЕНИИ</string>
+    <string name="version_label">Версия плеера</string>
+    <string name="developer_label">Разработчик</string>
+    
+    <string name="delete_confirm">Удалить трек?</string>
+    <string name="delete_msg">Вы уверены, что хотите удалить этот трек из вашей библиотеки?</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="theme_updated">Тема обновлена</string>
+    <string name="timer_set">Таймер установлен на 30 минут</string>
+    <string name="soon">Скоро появится</string>
+    
+    <string name="widget_description">Управление музыкой прямо с главного экрана</string>
+</resources>

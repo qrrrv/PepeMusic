@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.2'
+    }
+}
+
+// allprojects.repositories removed because of RepositoriesMode.FAIL_ON_PROJECT_REPOS in settings.gradle
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
